@@ -5,7 +5,7 @@ You can see how to use it in the 'LibTester.h' file, where I simulate the send a
 If you find it useful, I would appreciate it if you could notify me.
 In the future, I plan to implement a data integrity technique to enhance the reliability of the system."
 
-In the project, you can also find other useful features, for example, an interface for error management that allows you to display error messages with different hardware, such as LEDs, Serial, None, or std::cout if you are using C++/g++. You can switch from one to another by changing a definition, or create your own (e.g., a display), or combine several options at once using the CErrorWrapper class.
+In the project, you can also find other useful features, for example, an interface for error management that allows you to display error messages with different hardware, such as LEDs, Serial, None, or std::cout if you are using C++/g++. You can switch from one to another by changing a "#define", or create your own (e.g., a display), or combine several options at once using the CErrorWrapper class.
 
 It's a simple code, but it can be useful.
 
