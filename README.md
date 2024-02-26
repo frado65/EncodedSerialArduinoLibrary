@@ -7,6 +7,12 @@ In the future, I plan to implement a data integrity technique to enhance the rel
 
 In the project, you can also find other useful features, for example, an interface for error management that allows you to display error messages with different hardware, such as LEDs, Serial, None, or std::cout if you are using C++/g++. You can switch from one to another by changing a "#define", or create your own (e.g., a display), or combine several options at once using the CErrorWrapper class.
 
+These values (that you can see il the test file "LibTest.h") are parametric and can be changed:
+    static constexpr byte escapeByte = static_cast<byte>(0);
+    static constexpr byte startByte = static_cast<byte>(1);
+    static constexpr byte stopByte = static_cast<byte>(2);
+    static constexpr uint8_t m_buffer_maxLen = 50;
+
 It's a simple code, but it can be useful.
 
 Every suggestion is welcome.
